@@ -1,0 +1,131 @@
+/* 
+File: pacific.css
+GUI Assignment: Style a Site with External CSS
+Modify the pacific.css file to change the layout of the website
+Sofya Chow, Sofya_Chow@student.uml.edu
+Last Updated On: Sept 19, 2021
+*/
+
+
+header, hgroup, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+/* 
+- The header must contain the sunset image and title 
+- The background image is a mix of a color and the image on the right side
+*/
+
+header {
+	background: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: black;
+	color: white;
+}
+
+/* 
+- The wrapper represents the box, so the background color should be light blue,
+  so the navigation bar can extend to the entire body. 
+- The width should take up 80% of the screen
+- margin: auto centers the box
+*/
+
+#wrapper {
+	background-color: lightskyblue;
+	width: 80%;
+	height: 50%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 100px;
+	min-width: 600px;
+}
+
+
+body {
+	background-image: url(ptrbackground.jpg);
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This selector creates the overall navigation bar */
+nav {
+	float: left;
+}
+
+/* This selector defines the style of the naviation text */
+nav a {
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/* This selector defines the style of the list */
+nav ul {
+	list-style-type: none;
+}
+
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/* Make the image float left, to wrap around text */
+#content img {
+	float: left; 
+	padding-right: 10px;
+}
+
+/* White box area */
+#content {
+	background-color: white;
+    margin-left: 200px;
+    padding: 5px 20px 20px 30px; 
+}
+
+/* Defines the class within the words "Pacific Trails Resort" */
+.resort {
+	color: #266bec;
+	font-weight: bold;
+}
+
+/* Defines the list inside #content / div */
+div > ul {
+	list-style-position: inside;
+	list-style-image: url('marker.gif');
+}
+
+#contact {
+	font-size: 90%;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+h2 {
+	color: #3399CC;
+}
+
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+dt {
+	color: #000033;
+}
+
+/* The padding gives it a top, bottom, left and right spacing of one value */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	background-color: white;
+	padding: 30px;
+	margin-left: 200px;
+	font-size: 80%;
+}
