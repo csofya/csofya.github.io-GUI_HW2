@@ -3,7 +3,7 @@ File: pacific.css
 GUI Assignment: Style a Site with External CSS
 Modify the pacific.css file to change the layout of the website
 Sofya Chow, Sofya_Chow@student.uml.edu
-Last Updated On: Sept 19, 2021
+Last Updated On: Sept 27, 2021
 */
 
 
@@ -21,8 +21,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: right;
 	background-color: black;
-	color: white;
-}
+	color: white; }
 
 /* 
 - The wrapper represents the box, so the background color should be light blue,
@@ -38,20 +37,16 @@ header {
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 100px;
-	min-width: 600px;
-}
-
+	min-width: 600px; }
 
 body {
 	background-image: url(ptrbackground.jpg);
 	color: #666666;
-	font-family: Arial, Helvetica, sans-serif;
-}
+	font-family: Arial, Helvetica, sans-serif; }
 
-/* This selector creates the overall navigation bar */
+/* This selector contains the text/link to the other pages */
 nav {
-	float: left;
-}
+	float: left; }
 
 /* This selector defines the style of the naviation text */
 nav a {
@@ -59,66 +54,54 @@ nav a {
 	list-style-type: none;
 	color: black;
 	font-weight: bold;
-	font-size: 1.2em;
-}
+	font-size: 1.2em; }
 
 /* This selector defines the style of the list */
 nav ul {
-	list-style-type: none;
-}
+	list-style-type: none; }
 
 nav a:visited {
-	color: #344873;
-}
-nav a:hover {
-	color: #FFFFFF;
-}
+	color: #344873; }
+
+	nav a:hover {
+	color: #FFFFFF; }
 
 /* Make the image float left, to wrap around text */
 #content img {
 	float: left; 
-	padding-right: 10px;
-}
+	padding-right: 10px; }
 
 /* White box area */
 #content {
 	background-color: white;
     margin-left: 200px;
-    padding: 5px 20px 20px 30px; 
-}
+    padding: 5px 20px 20px 30px; }
 
 /* Defines the class within the words "Pacific Trails Resort" */
 .resort {
 	color: #266bec;
-	font-weight: bold;
-}
+	font-weight: bold; }
 
 /* Defines the list inside #content / div */
 div > ul {
 	list-style-position: inside;
-	list-style-image: url('marker.gif');
-}
+	list-style-image: url('marker.gif'); }
 
 #contact {
-	font-size: 90%;
-}
+	font-size: 90%; }
 
 h1 {
 	margin-bottom: 0;
-	padding: 10px;
-}
+	padding: 10px; }
 
 h2 {
-	color: #3399CC;
-}
+	color: #3399CC; }
 
 h1, h2 {
-	font-family: Georgia, "Times New Roman", serif;
-}
+	font-family: Georgia, "Times New Roman", serif; }
 
 dt {
-	color: #000033;
-}
+	color: #000033; }
 
 /* The padding gives it a top, bottom, left and right spacing of one value */
 footer {
@@ -127,5 +110,4 @@ footer {
 	background-color: white;
 	padding: 30px;
 	margin-left: 200px;
-	font-size: 80%;
-}
+	font-size: 80%; }
